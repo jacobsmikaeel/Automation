@@ -1,0 +1,5 @@
+This project is about creating a custom health checker. 
+The Health Checker will make use of a Lambda (Scripted in python and uses the boto3 library). 
+The lambda will create an Eventbridge rule that will scan for Open issues for all services on the AWS Health Dashboard.
+It will then post its findings to Amazon Q(Previously labelled aws chatbot). 
+The chatbot will then post its findings and status to Microsoft Teams 
